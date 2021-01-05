@@ -1,20 +1,862 @@
 <!--
-
 =========================================================
-* Vue Notus - v1.0.0 based on Tailwind Starter Kit by Creative Tim
+* BLK Design System- v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/vue-notus
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/vue-notus/blob/master/LICENSE.md)
-
-* Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
+* Product Page: https://www.creative-tim.com/product/blk-design-system
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT
 
 * Coded by Creative Tim
 
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ -->
 
--->
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=/favicon.ico><link rel=apple-touch-icon sizes=76x76 href=/apple-icon.png><script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script><title>ZenChain | BlockChain for DEFI</title><link href=/css/app.463ff952.css rel=preload as=style><link href=/css/chunk-vendors.16135f48.css rel=preload as=style><link href=/js/app.8951cc99.js rel=preload as=script><link href=/js/chunk-vendors.f17c82e5.js rel=preload as=script><link href=/css/chunk-vendors.16135f48.css rel=stylesheet><link href=/css/app.463ff952.css rel=stylesheet></head><body class="text-gray-800 antialiased"><noscript><strong>We're sorry but vue-notus doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.f17c82e5.js></script><script src=/js/app.8951cc99.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./zen-design/ZenChainIco-Green-Bg.png"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      href="./zen-design/ZenChainIco-Green-Bg.ico"
+    />
+    <title>ZenChain | Efficient blockchain for DEFI an NTFs</title>
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- Nucleo Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/homepage/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-transparent bg-success"
+      color-on-scroll="100"
+    >
+      <div class="container">
+        <div class="navbar-translate">
+          <a
+            class="navbar-brand"
+            href="https://zenchain.co"
+            rel="tooltip"
+            title="ZenChain Hompage"
+            data-placement="bottom"
+            target="_blank"
+          >
+            <img src="./zen-design/ZenChain-Logo-Text-White.png" />
+          </a>
+          <button
+            class="navbar-toggler navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navigation"
+            aria-controls="navigation-index"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navigation"
+        >
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-brand">
+                <a> ZenChain </a>
+              </div>
+              <div class="col-6 collapse-close text-right">
+                <button
+                  type="button"
+                  class="navbar-toggler"
+                  data-toggle="collapse"
+                  data-target="#navigation"
+                  aria-controls="navigation-index"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="tim-icons icon-simple-remove"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item p-0">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Follow us on Twitter"
+                data-placement="bottom"
+                href="https://twitter.com/zenchainco"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+                <p class="d-lg-none d-xl-none">Twitter</p>
+              </a>
+            </li>
+            <li class="nav-item p-0">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Like us on Facebook"
+                data-placement="bottom"
+                href="https://www.facebook.com/zenchainco"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-square"></i>
+                <p class="d-lg-none d-xl-none">Facebook</p>
+              </a>
+            </li>
+            <li class="nav-item p-0">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Follow us on Telegram"
+                data-placement="bottom"
+                href="https://t.me/zenchainco"
+                target="_blank"
+              >
+                <i class="fab fa-telegram"></i>
+                <p class="d-lg-none d-xl-none">Telegram</p>
+              </a>
+            </li>
+            <li class="nav-item p-0">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Star us on Github"
+                data-placement="bottom"
+                href="https://github.com/zenchainco"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+                <p class="d-lg-none d-xl-none">Github</p>
+              </a>
+            </li>
+            <li class="dropdown nav-item">
+              <a
+                href="#"
+                class="dropdown-toggle nav-link"
+                data-toggle="dropdown"
+              >
+                <i class="fa fa-cogs d-lg-none d-xl-none"></i> Getting started
+              </a>
+              <div class="dropdown-menu dropdown-with-icons">
+                <a
+                  href="https://docs.zenchain.co"
+                  class="dropdown-item"
+                >
+                  <i class="tim-icons icon-paper"></i> Documentation
+                </a>
+                <a href="https://docs.zenchain.co/developer-hubs" class="dropdown-item">
+                  <i class="tim-icons icon-bullet-list-67"></i>Developers Hubs
+                </a>
+                <a href="https://scan.zenchain.co" class="dropdown-item">
+                  <i class="tim-icons icon-image-02"></i>Block explorer
+                </a>
+
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-default d-none d-lg-block"
+                href="javascript:void(0)"
+                onclick="scrollToDownload()"
+              >
+                Get ZEN
+                <img
+                  src="./zen-design/ZenLogo-white.png"
+                  height="20"
+                  width="20"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="wrapper">
+      <div class="page-header header-filter">
+        <div class="squares square1"></div>
+        <div class="squares square2"></div>
+        <div class="squares square3"></div>
+        <div class="squares square4"></div>
+        <div class="squares square5"></div>
+        <div class="squares square6"></div>
+        <div class="squares square7"></div>
+        <div class="container">
+          <div class="content-center brand">
+            <h1 class="h1-seo">Zen</h1>
+            <h3>
+              A dedicated blockchain that is optimized specifically for DeFi and
+              NTFs
+            </h3>
+            <div class="row justify-content-center">
+              <a
+                class="btn btn-primary btn-round btn-lg btn-success"
+                href="https://docs.zenchain.co"
+                target="_blank"
+                >White paper</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="cd-section" id="features">
+          <!--     *********     FEATURES 1      *********      -->
+          <div class="features-1">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                  <span class="badge badge-primary badge-pill">Insight</span>
+                  <h1 class="title">What is ZenChain?</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="info info-hover">
+                    <div class="icon icon-primary">
+                      <img class="bg-blob" src="assets/img/primary.png" />
+                      <i class="tim-icons icon-user-run"></i>
+                    </div>
+                    <h4 class="info-title">
+                      Scalable, high-throughput Blockchain
+                    </h4>
+                    <p class="description">
+                      Proof-of-Stake blockchain, built using the Cosmos SDK
+                      which runs on top of the Tendermint Core consensus engine.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info info-hover">
+                    <div class="icon icon-success">
+                      <img class="bg-blob" src="assets/img/success.png" />
+                      <i class="tim-icons icon-atom"></i>
+                    </div>
+                    <h4 class="info-title">Cross-Chain</h4>
+                    <p class="description">
+                      Support cross-chain with bridge solution between Ethereum,
+                      Binance smartchain, Tron and more
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info info-hover">
+                    <div class="icon icon-warning">
+                      <img class="bg-blob" src="assets/img/warning.png" />
+                      <i class="tim-icons icon-gift-2"></i>
+                    </div>
+                    <h4 class="info-title">Built for Defi & NTFs</h4>
+                    <p class="description">
+                      With built-in core DApp for Defi & NTFs - ZenChain is
+                      ready for Defi & NTFs ecosystem from start
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--     *********    END FEATURES 1      *********      -->
+          <!--     *********     FEATURES 2      *********      -->
+          <div class="features-2">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-3 col-md-8 mr-auto text-left">
+                  <h1 class="title">Built-in DApps</h1>
+                  <p class="description">
+                    Contain all core DeFi applications and all applications
+                    supported for NTFs
+                  </p>
+                  <a class="btn btn-info btn-simple" href="javascript:;">
+                    Learn more <i class="tim-icons icon-alert-circle-exc"></i>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-info">
+                        <div class="icon icon-white">
+                          <i class="fa fa-exchange-alt"></i>
+                        </div>
+                        <h4 class="info-title">DEX</h4>
+                        <p class="description"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-danger info-raised">
+                        <div class="icon icon-white">
+                          <i class="fas fa-university"></i>
+                        </div>
+                        <h4 class="info-title">Lending & Borrowing</h4>
+                        <p class="description"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-default">
+                        <div class="icon icon-white">
+                          <i class="far fa-money-bill-alt"></i>
+                        </div>
+                        <h4 class="info-title">Stable coin</h4>
+                        <p class="description"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-primary">
+                        <div class="icon icon-white">
+                          <i class="far fa-star"></i>
+                        </div>
+                        <h4 class="info-title">NTFs Minting </h4>
+                        <p class="description"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-warning info-raised">
+                        <div class="icon icon-white">
+                          <i class="fas fa-gavel"></i>
+                        </div>
+                        <h4 class="info-title">NFTs Auction</h4>
+                        <p class="description"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="info text-left bg-success">
+                        <div class="icon icon-default">
+                          <i class="tim-icons icon-paper"></i>
+                        </div>
+                        <h4 class="info-title text-muted">NFTs Renting</h4>
+                        <p class="description text-muted"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--     *********    END FEATURES 2      *********      -->
+          <!--     *********     FEATURES 3      *********      -->
+          <div class="features-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 mr-auto ml-auto">
+                  <h1 class="title">ZenChain lets you work more.</h1>
+                  <h4 class="description">
+                    ZenChain enable you to organize and prioritize your projects
+                    in a flexible and rewarding way.
+                  </h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="info info-horizontal">
+                    <div class="icon icon-success">
+                      <img class="bg-blob" src="assets/img/success.png" />
+                      <i class="tim-icons icon-html5"></i>
+                    </div>
+                    <div class="description">
+                      <h3 class="info-title">For Developers</h3>
+                      <p>
+                        With ZenChain's EVM support, it is straightforward to
+                        brings ideas from Ethereum dapps to ZenChain ecosystem.
+                        The high scalability and interoperability of ZenChain
+                        can drive new innovations into this space
+                      </p>
+                      <a class="btn btn-info btn-link" href="javascript:;"
+                        >Explore now
+                        <i class="tim-icons icon-minimal-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info info-horizontal">
+                    <div class="icon icon-warning">
+                      <img class="bg-blob" src="assets/img/warning.png" />
+                      <i class="tim-icons icon-heart-2"></i>
+                    </div>
+                    <div class="description">
+                      <h3 class="info-title">For cryptor investment</h3>
+                      <p>
+                        Delegate your tokens and start earning staking reward or
+                        liquid provide to DEX and Lending DApps to earn reward
+                      </p>
+                      <a class="btn btn-info btn-link" href="javascript:;"
+                        >Explore now
+                        <i class="tim-icons icon-minimal-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info info-horizontal">
+                    <div class="icon icon-danger">
+                      <img class="bg-blob" src="assets/img/danger.png" />
+                      <i class="tim-icons icon-chart-bar-32"></i>
+                    </div>
+                    <div class="description">
+                      <h3 class="info-title">For Validator</h3>
+                      <p>Become ZenChain's validator to earn block reward</p>
+                      <a class="btn btn-info btn-link" href="javascript:;"
+                        >Explore now
+                        <i class="tim-icons icon-minimal-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--     *********    END FEATURES 3      *********      -->
+          <div id="poweredby" class="section section-tabs">
+            <div class="container">
+              <div class="title text-center">
+                <h3 class="mb-3">POWERED BY</h3>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 col-9 text-center">
+                  <img
+                    src="./zen-design/imgs/ethereum.png"
+                    class="icon-hover"
+                  />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/binance.png" class="icon-hover" />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/cosmos.png" class="icon-hover" />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/tron.png" class="icon-hover" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="partnership" class="section section-tabs">
+            <div class="container">
+              <div class="title text-center">
+                <h3 class="mb-3">PARTNERSHIPS</h3>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 col-9 text-center">
+                  <img
+                    src="./zen-design/imgs/chainLink.png"
+                    class="icon-hover"
+                  />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img
+                    src="./zen-design/imgs/cryptodiffer.png"
+                    class="icon-hover"
+                  />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img
+                    src="./zen-design/imgs/ivanOnTech.png"
+                    class="icon-hover"
+                  />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img
+                    src="./zen-design/imgs/newKidOnTheBlockchain.png"
+                    class="icon-hover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="exchangepartner" class="section section-tabs">
+            <div class="container">
+              <div class="title text-center">
+                <h3 class="mb-3">EXCHANGE PARTNER</h3>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/kucoin.png" class="icon-hover" />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/latoken.png" class="icon-hover" />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/hotbit.png" class="icon-hover" />
+                </div>
+                <div class="col-md-3 col-9 text-center">
+                  <img src="./zen-design/imgs/serum.png" class="icon-hover" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cd-section" id="accordion">
+            <!--     *********    Accordion 1     *********      -->
+            <div class="accordion-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 ml-auto mr-auto text-center">
+                    <h2 class="title mb-4 mt-5">Frequently asked question</h2>
+                    <div class="section-space"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 ml-auto">
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <button
+                              class="btn btn-link w-100 text-left collapsed"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapseOne"
+                              aria-expanded="false"
+                              aria-controls="collapseOne"
+                            >
+                              What is ZEN token?
+                              <i
+                                class="tim-icons icon-minimal-down float-right"
+                              ></i>
+                            </button>
+                          </h5>
+                        </div>
+                        <div
+                          id="collapseOne"
+                          class="collapse"
+                          aria-labelledby="headingOne"
+                          data-parent="#accordionExample"
+                          style=""
+                        >
+                          <div class="card-body">
+                            The use cases intended for ZEN include but are not limited to: protocol governance, exchange fee value capture, derivative collateralization, liquidity mining, and staking 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h5 class="mb-0">
+                            <button
+                              class="btn btn-link w-100 text-left"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapseTwo"
+                              aria-expanded="true"
+                              aria-controls="collapseTwo"
+                            >
+                              How can i get ZEN?
+                              <i
+                                class="tim-icons icon-minimal-down float-right"
+                              ></i>
+                            </button>
+                          </h5>
+                        </div>
+                        <div
+                          id="collapseTwo"
+                          class="collapse show"
+                          aria-labelledby="headingTwo"
+                          data-parent="#accordionExample"
+                          style=""
+                        >
+                          <div class="card-body">
+                            ZEN will sale in three round: 6% for seed sale, 15% for private sale, and 25% for public sale. Public sale ZEN will start in Q2.2021
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h5 class="mb-0">
+                            <button
+                              class="btn btn-link w-100 text-left collapsed"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapseThree"
+                              aria-expanded="false"
+                              aria-controls="collapseThree"
+                            >
+                              How much payment does it take to participate?
+                              <i
+                                class="tim-icons icon-minimal-down float-right"
+                              ></i>
+                            </button>
+                          </h5>
+                        </div>
+                        <div
+                          id="collapseThree"
+                          class="collapse"
+                          aria-labelledby="headingThree"
+                          data-parent="#accordionExample"
+                        >
+                          <div class="card-body">
+                           Mininum payment is 100 USD and maximum payment is 10.000 USD
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h5 class="mb-0">
+                            <button
+                              class="btn btn-link w-100 text-left"
+                              type="button"
+                              data-toggle="collapse"
+                              data-target="#collapseFour"
+                              aria-controls="collapseFour"
+                            >
+                              Can I resell the ZEN?
+                              <i
+                                class="tim-icons icon-minimal-down float-right"
+                              ></i>
+                            </button>
+                          </h5>
+                        </div>
+                        <div
+                          id="collapseFour"
+                          class="collapse"
+                          aria-labelledby="headingFour"
+                          data-parent="#accordionExample"
+                        >
+                          <div class="card-body">
+                            Yes, as ZEN token sale in public sale, without token locked, you can sell ZEN instantly (but seem early to get more profit with ZEN)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--     *********    END Accordion 1     *********      -->
+          </div>
+          <div
+            class="section section-download"
+            id="#download-section"
+            data-background-color="black"
+          >
+            <img src="assets/img/path1.png" class="path" />
+            <div class="container">
+              <div class="row justify-content-md-center">
+                <div class="text-center col-md-12 col-lg-8">
+                  <h2 class="title">Do you love this ZenChain?</h2>
+                  <h4 class="description">
+                    Cause if you do, it can be yours for early. Hit the button
+                    below to navigate to IDO page
+                  </h4>
+                </div>
+                <div class="text-center col-md-12 col-lg-8">
+                  <a
+                    href="https://purchase.zenchain.co"
+                    class="btn btn-primary btn-round btn-lg"
+                    role="button"
+                  >
+                    Get ZEN token
+                    <img
+                      src="./zen-design/ZenChainIco-Green-text-white-Bg.png"
+                      height="30"
+                      with="30"
+                    />
+                  </a>
+                  <!-- <a href="https://www.invisionapp.com/now" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
+						Download PSD/Sketch
+					</a> -->
+                </div>
+              </div>
+              <br />
+              <br />
+              <br />
+              <!-- <div class="row text-center mt-5">
+				<div class="col-md-8 ml-auto mr-auto">
+					<h2>Want more?</h2>
+					<h5 class="description">We've just launched <a href="http://demos.creative-tim.com/black-kit-pro/presentation.html" target="_blank">BLK• Design System PRO</a>. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap 4 Design System.</h4>
+				</div>
+				<div class="col-md-12">
+					<a href="http://demos.creative-tim.com/black-kit-pro/presentation.html" class="btn btn-neutral btn-round btn-lg" target="_blank">
+						<i class="tim-icons icon-cloud-upload-94"></i> Upgrade to PRO
+					</a>
+				</div>
+			</div> -->
+              <br />
+              <br />
+              <div class="row row-grid align-items-center my-md">
+                <div class="col-lg-6">
+                  <h3 class="text-primary font-weight-light mb-2">
+                    Thank you for supporting us!
+                  </h3>
+                  <h4 class="mb-0 font-weight-light">
+                    Let's get in touch on any of these platforms.
+                  </h4>
+                </div>
+                <div class="col-lg-6 text-lg-center btn-wrapper">
+                  <a
+                    id="twitter"
+                    class="btn btn-icon btn-twitter btn-round btn-lg"
+                    data-toggle="tooltip"
+                    data-original-title="Tweet!"
+                    href="https://twitter.com/zenchainco"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    id="facebook"
+                    class="btn btn-icon btn-facebook btn-round btn-lg"
+                    data-toggle="tooltip"
+                    data-original-title="Share!"
+                    href="https://facebook.com/zenchainco"
+                  >
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a
+                    id="telegram"
+                    class="btn btn-icon btn-facebook btn-round btn-lg"
+                    data-toggle="tooltip"
+                    data-original-title="Share!"
+                    href="https://t.me/zenchainco"
+                  >
+                    <i class="fab fa-telegram"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/zenchainco"
+                    class="btn btn-icon btn-github btn-round btn-lg"
+                    data-toggle="tooltip"
+                    data-original-title="Star on Github"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h1 class="title">ZenChain</h1>
+              </div>
+              <div class="col-md-6">
+                <p>Copy right Zen Foundation 2021</p>
+              </div>
+              <div class="col-md-3">
+                <h3 class="title">Follow us:</h3>
+                <div class="btn-wrapper profile">
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/zenchainco"
+                    class="btn btn-icon btn-neutral btn-round btn-simple"
+                    data-toggle="tooltip"
+                    data-original-title="Follow us"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/zenchainco"
+                    class="btn btn-icon btn-neutral btn-round btn-simple"
+                    data-toggle="tooltip"
+                    data-original-title="Like us"
+                  >
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.github.com/zenchainco"
+                    class="btn btn-icon btn-neutral btn-round btn-simple"
+                    data-toggle="tooltip"
+                    data-original-title="Follow us"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://t.me/zenchainco"
+                    class="btn btn-icon btn-neutral btn-round btn-simple"
+                    data-toggle="tooltip"
+                    data-original-title="Follow us"
+                  >
+                    <i class="fab fa-telegram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script
+      src="./assets/js/core/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script
+      src="./assets/js/plugins/nouislider.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Chart JS -->
+    <script src="./assets/js/plugins/chartjs.min.js"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <script
+      src="./assets/js/plugins/bootstrap-datetimepicker.js"
+      type="text/javascript"
+    ></script>
+    <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
+    <script
+      src="./assets/js/blk-design-system.min.js?v=1.0.0"
+      type="text/javascript"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        blackKit.initDatePicker()
+        blackKit.initSliders()
+      })
+
+      function scrollToDownload() {
+        if ($('.section-download').length != 0) {
+          $('html, body').animate(
+            {
+              scrollTop: $('.section-download').offset().top,
+            },
+            1000
+          )
+        }
+      }
+    </script>
+  </body>
+</html>
