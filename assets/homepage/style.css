@@ -9,10 +9,20 @@ html {
 .reset-page .squares {
   background: linear-gradient(0deg, #00bf9a, #92f9a3);
 }
+
 .icon-hover{
-    filter: grayscale(80%);
-    transition: 1s filter linear, 1s -webkit-filter linear;
+  width: 200px;
+  margin: 10px;
 }
-.icon-hover:hover{
-    filter: grayscale(0%);
+#venture .icon-hover{
+  width: 100px;
+}
+.section{
+  padding: 20px 0;
+}
+
+.footer .copyright{
+  text-align: left;
+  font-size: 12px;
+  line-height: 16px;
 }
