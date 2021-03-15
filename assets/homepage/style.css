@@ -19,7 +19,9 @@ html {
 .reset-page .squares {
   background: linear-gradient(0deg, #00bf9a, #92f9a3);
 }
-
+.page-header .content-center.brand {
+  width: 100%;
+}
 .icon-hover {
   width: 200px;
   margin: 10px;
