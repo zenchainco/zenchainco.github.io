@@ -24,8 +24,19 @@ html {
   width: 200px;
   margin: 10px;
 }
+#poweredby .icon-hover{
+  filter: brightness(0) invert(1);
+}
 #venture .icon-hover {
   width: 100px;
+  transition: all 0.5s ease;
+  filter: brightness(0.8);
+
+}
+#venture .icon-hover:hover {
+  transform: scale(1.1);
+  filter: brightness(1);
+
 }
 .section {
   padding: 20px 0;
