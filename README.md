@@ -1,2 +1,2 @@
-# zenchainco.github.io
-ZenChain landing page source code
+# zenchain.co
+❤️ ZenChain landing page source code
