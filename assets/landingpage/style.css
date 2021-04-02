@@ -17,7 +17,7 @@ html {
 .index-page .squares,
 .login-page .squares,
 .reset-page .squares {
-  background: linear-gradient(0deg, #00bf9a, #92f9a3);
+  background: linear-gradient(0deg, #00bf9a, #134556);
 }
 .page-header .content-center.brand {
   width: 100%;
@@ -110,7 +110,7 @@ html {
 }
 
 .bg-info {
-  background: linear-gradient(150deg, #4072ee 0%, #2d50a7 100%) !important; 
+  background: linear-gradient(150deg, #4072ee 0%, #2d50a7 100%) !important;
 }
 
 .bg-danger {
@@ -132,30 +132,30 @@ html {
 .bg-warning {
   background: linear-gradient(150deg, #ff8d72 0%, #ad2504 100%) !important;
 }
-.profile-bg{
-  filter: grayscale(.5);
+.profile-bg {
+  filter: grayscale(0.5);
   transition: all 0.5s ease-in-out;
 }
-.profile-bg:hover{
+.profile-bg:hover {
   filter: grayscale(0);
 }
-.profile-bg .card-avatar img{
+.profile-bg .card-avatar img {
   background: rgb(36, 36, 36);
   border: none !important;
   transition: all 0.5s ease-in-out;
 }
-.profile-bg:hover .card-avatar img{
+.profile-bg:hover .card-avatar img {
   background: black;
 }
-.profile-bg:hover .card-header{
+.profile-bg:hover .card-header {
   background-size: 105% !important;
 }
-.profile-bg .card-header{
+.profile-bg .card-header {
   transition: all 1s ease-in-out;
   background-size: 100% !important;
 }
 
-.profile-bg .category{
+.profile-bg .category {
   font-size: 1rem;
 }
 
@@ -163,7 +163,7 @@ html {
   color: #28c592 !important;
 }
 a {
-  color:#28c592 ;
+  color: #28c592;
 }
 
 .header-filter:before {
