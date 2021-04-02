@@ -32,11 +32,11 @@ html {
 #venture .icon-hover {
   width: 100px;
   transition: all 0.5s ease;
-  filter: brightness(0.8);
+  filter: grayscale(1);
 }
 #venture .icon-hover:hover {
   transform: scale(1.1);
-  filter: brightness(1);
+  filter: grayscale(0);
 }
 .section {
   padding: 20px 0;
@@ -157,4 +157,23 @@ html {
 
 .profile-bg .category{
   font-size: 1rem;
+}
+
+.text-primary {
+  color: #28c592 !important;
+}
+a {
+  color:#28c592 ;
+}
+
+.header-filter:before {
+  background-color: rgb(14 0 0 / 0%);
+}
+
+.btn-success {
+  background: #00f2c3;
+  background-image: linear-gradient(to bottom left, #00f2c3, #219f7b, #00f2c3);
+}
+.btn-success:hover {
+  background-image: linear-gradient(to bottom left, #00f2c3, #219f7b, #00f2c3);
 }
