@@ -1,0 +1,32 @@
+[
+    {
+      "icon": "twitter",
+      "text": "Twitter",
+      "url": "https://twitter.com/zenchainco"
+    },
+    {
+      "icon": "facebook",
+      "text": "Facebook",
+      "url": "https://www.facebook.com/Zenchainofficial"
+    },
+    {
+      "icon": "medium",
+      "text": "Medium",
+      "url": "https://medium.com/zenchain-protocol"
+    },
+    {
+      "icon": "telegram",
+      "text": "Telegram Channel",
+      "url": "https://t.me/Zenchainofficial"
+    },
+    {
+      "icon": "telegram",
+      "text": "Telegram Group",
+      "url": "https://t.me/zenchaingroup"
+    },
+    {
+      "icon": "github",
+      "text": "Github",
+      "url": "https://github.com/zenchainprotocol"
+    }
+  ]
