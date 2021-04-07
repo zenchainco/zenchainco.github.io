@@ -1,0 +1,42 @@
+[
+    {
+      "title": "What is Zenchain Foundation?",
+      "description": "The ZenChain Foundation is developing ZenChain, a blockchain specifically dedicated to decentralized financial (DEFI) applications and non-fungible tokens (NFTs). By focusing on the functionality of the blockchain and dedicating it specifically to DEFI and NFTs, ZenChain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services for both fungible token and non-fungible token (NFT) on the blockchain.",
+      "active": false
+    },
+    {
+        "title": "Is $ZEN an ERC20-based token?",
+        "description": "No. $ZEN is a Binance smart chain based token",
+        "active": false
+      },
+      {
+        "title": "When is Zenchain launching?",
+        "description": "As planned, testnest will be in April 2021. About mainnet and product will be announced later on our social channels, contributors to our network/blockchain will be rewarded",
+        "active": false
+      },
+      {
+        "title": "Where will we launch the IDO?",
+        "description": "There are some platforms will help us to raise fund within their community, we may also have another plan to raise it in Zenchain platform. ",
+        "active": false
+      },
+      {
+        "title": "How can I contact the Zenchain team?",
+        "description": "Please kindly contact us on telegram: @Weizenchain or mail us at contact@zenchain.co",
+        "active": false
+      },
+      {
+        "title": "Which blockchain powers Zenchain Protocol?",
+        "description": "Mainly is Cosmos, we are also using Binance smart chain, Tron, Polkadot, and Ethereum to optimize and develop our blockchain",
+        "active": false
+      },
+      {
+        "title": "Is Zenteam token allocation will be locked?",
+        "description": "Yes, our token allocation will be locked for 15 months, 20% of it will be unlocked by each quarter",
+        "active": false
+      },
+      {
+        "title": "Which exchange will $ZEN be listed?",
+        "description": "Sorry, we do not disclose this information.",
+        "active": false
+      }
+  ]
