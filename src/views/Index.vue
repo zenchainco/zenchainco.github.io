@@ -62,9 +62,7 @@
                     class="text-green-600 fill-current"
                   ></polygon>
                 </svg>
-                <h4 class="text-xl font-bold text-white">
-                  What is ZenChain?
-                </h4>
+                <h4 class="text-xl font-bold text-white">What is ZenChain?</h4>
                 <p class="text-md font-light mt-2 text-white">
                   ZenChain is a dedicated blockchain that is optimized
                   specifically for DeFi and NFT applications
@@ -76,7 +74,7 @@
           <div class="w-full md:w-6/12 px-4">
             <div class="flex flex-wrap">
               <div class="w-full md:w-6/12 px-4">
-                <div class="relative flex flex-col mt-4 ">
+                <div class="relative flex flex-col mt-4">
                   <div class="px-4 py-5 flex-auto" data-aos="fade-up">
                     <div
                       class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
@@ -99,9 +97,7 @@
                     >
                       <i class="fa fa-link"></i>
                     </div>
-                    <h6 class="text-xl mb-1 font-semibold">
-                      Cross-Chain
-                    </h6>
+                    <h6 class="text-xl mb-1 font-semibold">Cross-Chain</h6>
                     <p class="mb-4 text-gray-600">
                       Support cross-chain with bridge solution between Ethereum,
                       Binance smartchain, Tron and more
@@ -157,21 +153,21 @@
           </div>
         </div>
         <div
-          class="flex flex-row flex-wrap items-center justify-items-center justify-evenly  "
+          class="flex flex-row flex-wrap items-center justify-items-center justify-evenly"
         >
-          <div data-aos="fade-right" class="pw w-full sm:w-3/12  ">
+          <div data-aos="fade-right" class="pw w-full sm:w-3/12">
             <img src="@/assets/img/zen/pw-binance.png" />
           </div>
-          <div data-aos="fade-right" class="pw w-full sm:w-3/12 mt-5 mb-5 ">
+          <div data-aos="fade-right" class="pw w-full sm:w-3/12 mt-5 mb-5">
             <img src="@/assets/img/zen/pw-cosmos.png" />
           </div>
-          <div data-aos="fade-down" class="pw w-full sm:w-3/12  ">
+          <div data-aos="fade-down" class="pw w-full sm:w-3/12">
             <img src="@/assets/img/zen/pw-ethereum.png" />
           </div>
-          <div data-aos="fade-left" class="pw w-full sm:w-6/12  ">
+          <div data-aos="fade-left" class="pw w-full sm:w-6/12">
             <img src="@/assets/img/zen/pw-polkadot.png" />
           </div>
-          <div data-aos="fade-left" class="pw w-full sm:w-6/12 -mt-10 ">
+          <div data-aos="fade-left" class="pw w-full sm:w-6/12 -mt-10">
             <img src="@/assets/img/zen/pw-tron.png" />
           </div>
         </div>
@@ -186,18 +182,18 @@
           </div>
         </div>
         <div
-          class="flex flex-row flex-wrap items-center justify-items-center justify-evenly  "
+          class="flex flex-row flex-wrap items-center justify-items-center justify-evenly"
         >
-          <div data-aos="fade-right" class="vt  sm:w-6/12">
+          <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-matrix.png" />
           </div>
-          <div data-aos="fade-right" class="vt  sm:w-6/12">
+          <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-sequaoia.png" />
           </div>
-          <div data-aos="fade-left" class="vt  sm:w-6/12">
+          <div data-aos="fade-left" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-sourcecode.png" />
           </div>
-          <div data-aos="fade-left" class="vt  sm:w-6/12">
+          <div data-aos="fade-left" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-yanyuan.png" />
           </div>
         </div>
@@ -222,7 +218,7 @@
               <img
                 alt="..."
                 :src="require('@/assets/img/zen/' + mem.img)"
-                class="shadow-lg rounded-full mx-auto max-w-120-px "
+                class="shadow-lg rounded-full mx-auto max-w-120-px"
               />
               <div class="pt-6 text-center">
                 <h5 class="text-xl font-bold">{{ mem.name }}</h5>
@@ -289,7 +285,7 @@ export default {
     Accordion,
   },
   methods: {
-    gotoUrl: function(url) {
+    gotoUrl: function (url) {
       window.open(url)
     },
   },
