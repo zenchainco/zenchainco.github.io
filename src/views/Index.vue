@@ -196,6 +196,15 @@
           <div data-aos="fade-left" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-yanyuan.png" />
           </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/backed-ico-pantera.jpg" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/backed-crypto-revolution.jpg" />
+          </div>
+          <div data-aos="fade-left" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/backed-crypto-revolution-channel.jpg" />
+          </div>
         </div>
       </div>
     </section>
@@ -285,7 +294,7 @@ export default {
     Accordion,
   },
   methods: {
-    gotoUrl: function (url) {
+    gotoUrl: function(url) {
       window.open(url)
     },
   },
