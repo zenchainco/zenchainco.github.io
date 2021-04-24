@@ -178,11 +178,11 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-5">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold">BACKED BY</h2>
+            <h2 class="text-4xl font-semibold">PARTNERS</h2>
           </div>
         </div>
         <div
-          class="flex flex-row flex-wrap items-center justify-items-center justify-evenly"
+          class="flex flex-row flex-wrap items-center justify-items-center justify-center"
         >
           <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/venture-matrix.png" />
@@ -202,8 +202,18 @@
           <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/backed-crypto-revolution.jpg" />
           </div>
+        </div>
+        <div
+          class="flex flex-row flex-wrap items-center justify-items-center justify-center"
+        >
           <div data-aos="fade-left" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/backed-crypto-revolution-channel.jpg" />
+          </div>
+          <div data-aos="fade-left" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/slowmist.png" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/beosin.png" />
           </div>
         </div>
       </div>
