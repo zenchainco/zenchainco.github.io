@@ -218,6 +218,12 @@
           <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/cryptomansion.jpg" />
           </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/ibc.png" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/deficomnunity.png" />
+          </div>
         </div>
       </div>
     </section>
