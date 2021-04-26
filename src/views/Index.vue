@@ -215,6 +215,9 @@
           <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/beosin.png" />
           </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/cryptomansion.jpg" />
+          </div>
         </div>
       </div>
     </section>
