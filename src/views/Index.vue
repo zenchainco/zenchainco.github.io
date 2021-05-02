@@ -225,6 +225,25 @@
             <img src="@/assets/img/zen/deficomnunity.png" />
           </div>
         </div>
+        <div
+          class="flex flex-row flex-wrap items-center justify-items-center justify-center"
+        >
+          <div data-aos="fade-left" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/astronaut.jpg" />
+          </div>
+          <div data-aos="fade-left" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/kriptobi-tr.jpg" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/avrasya-crypto.jpg" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/crypto-titans.jpg" />
+          </div>
+          <div data-aos="fade-right" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/ama-lover.jpg" />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -288,15 +307,15 @@
   </div>
 </template>
 <script>
-import IndexNavbar from '@/components/Navbars/IndexNavbar.vue'
-import FooterComponent from '@/components/Footers/Footer.vue'
+import IndexNavbar from "@/components/Navbars/IndexNavbar.vue"
+import FooterComponent from "@/components/Footers/Footer.vue"
 
-import ImgHeader from '@/components/Headers/Image.vue'
+import ImgHeader from "@/components/Headers/Image.vue"
 
-import Accordion from '@/components/Accordion.vue'
-import faq from '@/assets/faq.json'
-import features from '@/assets/features.json'
-import team from '@/assets/team.json'
+import Accordion from "@/components/Accordion.vue"
+import faq from "@/assets/faq.json"
+import features from "@/assets/features.json"
+import team from "@/assets/team.json"
 
 export default {
   data() {
