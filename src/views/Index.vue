@@ -155,20 +155,29 @@
         <div
           class="flex flex-row flex-wrap items-center justify-items-center justify-evenly"
         >
-          <div data-aos="fade-right" class="pw w-full sm:w-3/12">
-            <img src="@/assets/img/zen/pw-binance.png" />
+          <div data-aos="fade-right" class="pw w-3/12 ">
+            <img src="@/assets/img/zen/1.png" />
           </div>
-          <div data-aos="fade-right" class="pw w-full sm:w-3/12 mt-5 mb-5">
-            <img src="@/assets/img/zen/pw-cosmos.png" />
+          <div data-aos="fade-right" class="pw w-3/12 ">
+            <img src="@/assets/img/zen/2.png" />
           </div>
-          <div data-aos="fade-down" class="pw w-full sm:w-3/12">
-            <img src="@/assets/img/zen/pw-ethereum.png" />
+          <div data-aos="fade-down" class="pw w-3/12">
+            <img src="@/assets/img/zen/3.png" />
           </div>
-          <div data-aos="fade-left" class="pw w-full sm:w-6/12">
-            <img src="@/assets/img/zen/pw-polkadot.png" />
+          <div data-aos="fade-left" class="pw w-3/12">
+            <img src="@/assets/img/zen/4.png" />
           </div>
-          <div data-aos="fade-left" class="pw w-full sm:w-6/12 -mt-10">
-            <img src="@/assets/img/zen/pw-tron.png" />
+          <div data-aos="fade-left" class="pw w-3/12">
+            <img src="@/assets/img/zen/5.png" />
+          </div>
+          <div data-aos="fade-down" class="pw w-3/12">
+            <img src="@/assets/img/zen/6.png" />
+          </div>
+          <div data-aos="fade-left" class="pw w-3/12">
+            <img src="@/assets/img/zen/7.png" />
+          </div>
+          <div data-aos="fade-left" class="pw w-3/12">
+            <img src="@/assets/img/zen/8.png" />
           </div>
         </div>
       </div>
@@ -339,12 +348,12 @@ export default {
 }
 </script>
 <style scoped>
-.pw {
+/* .pw {
   filter: brightness(0);
-}
-.pw {
+} */
+/* .pw {
   width: 200px;
-}
+} */
 .vt {
   width: 150px;
 }
