@@ -252,6 +252,9 @@
           <div data-aos="fade-right" class="vt sm:w-6/12">
             <img src="@/assets/img/zen/ama-lover.jpg" />
           </div>
+          <div data-aos="fade-down" class="vt sm:w-6/12">
+            <img src="@/assets/img/zen/yellow-road.jpg" />
+          </div>
         </div>
       </div>
     </section>
