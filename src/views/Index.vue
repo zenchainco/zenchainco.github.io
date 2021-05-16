@@ -348,12 +348,6 @@ export default {
 }
 </script>
 <style scoped>
-/* .pw {
-  filter: brightness(0);
-} */
-/* .pw {
-  width: 200px;
-} */
 .vt {
   width: 150px;
 }
