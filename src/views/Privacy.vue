@@ -535,8 +535,8 @@
                     <p><strong>11. Contact Us</strong></p>
                     <p>
                       Unless otherwise indicated in this Privacy Policy,
-                      ZenChain Protocol is the entity responsible or “data
-                      controller” for the processing of Personal Information
+                      ZenChain Protocol is the entity responsible or "data
+                      controller" for the processing of Personal Information
                       described in this Privacy Policy. If you have any
                       questions about this Privacy Policy or our privacy
                       practices in general, please contact us via email at
@@ -554,8 +554,8 @@
   </div>
 </template>
 <script>
-import IndexNavbar from '@/components/Navbars/IndexNavbar.vue'
-import FooterComponent from '@/components/Footers/Footer.vue'
+import IndexNavbar from "@/components/Navbars/IndexNavbar.vue"
+import FooterComponent from "@/components/Footers/Footer.vue"
 
 export default {
   data() {
