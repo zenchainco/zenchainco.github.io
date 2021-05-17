@@ -1,20 +1,38 @@
 [
-    {
-      "name": "Josiah Tan",
-      "job": "Founder",
-      "img": "team-tan.png",
-      "linkedin": "https://www.linkedin.com/in/Josiahzenchain/"
-    },
-    {
-      "name": "Christopher Chan",
-      "job": "Business Development Manager",
-      "img": "team-chan.png",
-      "linkedin": "https://www.linkedin.com/in/Christopherzen/"
-    },
-    {
-      "name": "Kawasaki Takao",
-      "job": "Tech Lead",
-      "img": "team-takao.png",
-      "linkedin": "https://www.linkedin.com/"
-    }
-  ]
+  {
+    "name": "Josiah Tan",
+    "job": "Founder",
+    "img": "team-tan.png",
+    "linkedin": "https://www.linkedin.com/in/Josiahzenchain/"
+  },
+  {
+    "name": "Christopher Chan",
+    "job": "Business Development Manager",
+    "img": "team-chan.png",
+    "linkedin": "https://www.linkedin.com/in/Christopherzen/"
+  },
+  {
+    "name": "Kawasaki Takao",
+    "job": "Tech Lead",
+    "img": "team-takao.png",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  {
+    "name": "Ning Wei",
+    "job": "CEO & Public Relations Manager",
+    "img": "team-ningwei.png",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  {
+    "name": "Stefania Russo",
+    "job": "Community Manager",
+    "img": "team-russo.png",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  {
+    "name": "Jove",
+    "job": "Core Developer",
+    "img": "team-jove.png",
+    "linkedin": "https://www.linkedin.com/"
+  }
+]
